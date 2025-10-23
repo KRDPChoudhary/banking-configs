@@ -2,8 +2,6 @@ server:
   port: 8081
 
 spring:
-  application:
-    name: customer-service
   datasource:
     url: jdbc:h2:mem:customerdb;DB_CLOSE_DELAY=-1
     driver-class-name: org.h2.Driver
